@@ -4,14 +4,14 @@
 
 #define FS_HEALTH  2
 #define FS_ARMOR   3
-#define W_SHOTGUN          155
-#define W_MACHINEGUN       91
-#define W_GRENADELAUNCHER 201
-#define W_ROCKETLAUNCHER   186
-#define W_RAILGUN          82
-#define W_BFG10K           20
-#define W_LIGHTNING        96
-#define W_PLASMAGUN        187
+#define W_SHOTGUN           115
+#define W_MACHINEGUN        55
+#define W_GRENADELAUNCHER   200
+#define W_ROCKETLAUNCHER    115
+#define W_RAILGUN           55
+#define W_BFG10K            55
+#define W_LIGHTNING         55
+#define W_PLASMAGUN         55
 #define GWW_SHOTGUN        20
 #define GWW_MACHINEGUN     30
 #define GWW_GRENADELAUNCHER 200
