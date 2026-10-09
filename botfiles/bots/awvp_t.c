@@ -8,7 +8,7 @@
 // Tab Size:		3 (real tabs) wtf?
 //===========================================================================
 
-chat "awvp"
+chat "dwcbot1"
 {
 	#include "teamplay.h"
 
@@ -60,7 +60,6 @@ chat "awvp"
 	type "level_end_lose" //initiated when a level ends and the bot is last in the rankings
 	{
 		"wo kann man denn nun Waffen kaufen???";
-		"wo war denn das Weapon Wheel???"
 		// 0 = bot name
 	} //end type
 
@@ -76,7 +75,6 @@ chat "awvp"
 	type "hit_nodeath" //bot is hit by an opponent's weapon attack; either praise or insult
 	{
 		"Kacknabbel!";
-		"jetzt ne nade!!!"
 
 		//0 = shooter
 	} //end type
@@ -84,7 +82,6 @@ chat "awvp"
 	type "hit_nokill" //bot hits an opponent but does not kill it
 	{
 		"jetzt warte doch mal kurz, ich kann nicht so schnell";
-		"stehenbleiben, ich bin die Polizei"
 
 		//0 = opponent
 	} //end type
@@ -101,7 +98,6 @@ chat "awvp"
 	type "death_cratered" //initiated when the bot is killed by taking "normal" falling damage
 	{
 		"wie jetzt...ich war doch in der Hocke!";
-		"jetzt liege ich endlich"
 		// 0 = enemy name
 	} //end type
 
@@ -138,7 +134,6 @@ chat "awvp"
 	type "death_rail" //initiated when the bot is killed by a rail gun shot
 	{
 		"...mit einem Laser!!!";
-		"zisch !"
 		// 0 = enemy name
 	} //end type
 

@@ -9,7 +9,7 @@
 
 #include "chars.h"
 
-skill 4
+skill 5
 {
     CHARACTERISTIC_NAME          "dwcbot2"
     CHARACTERISTIC_GENDER        "male"
