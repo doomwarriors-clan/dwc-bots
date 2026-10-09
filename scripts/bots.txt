@@ -213,6 +213,13 @@ model		freeze
 aifile	bots/freeze_c.c
 }
 
+{
+name		dyg
+funname		^F^1DYG^f^5dyg
+model		freeze
+aifile	bots/dyg_c.c
+}
+
 
 {
 name		dwcbot1
