@@ -36,7 +36,7 @@ chat "dyg"
 
 	type "level_start" //initiated when a new level starts
 	{
-		"DIE RAIL GEHÖRT MIR IHR OPFER!!!";
+		"DIE RAIL GEHOERT MIR IHR OPFER!!!";
 		"...NUR AM CAMPEN!";
 		"gna...";
 		"gehts jetzt schon los?";
@@ -110,7 +110,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		//0 = opponent
@@ -126,7 +126,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -139,7 +139,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -152,7 +152,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -165,7 +165,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -185,7 +185,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -198,7 +198,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -211,7 +211,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -231,7 +231,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 
@@ -246,7 +246,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -261,7 +261,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -274,7 +274,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -287,7 +287,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -300,7 +300,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -313,7 +313,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -326,7 +326,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -342,7 +342,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 
@@ -357,7 +357,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heiï¿½t Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 

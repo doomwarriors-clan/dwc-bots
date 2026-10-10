@@ -213,17 +213,10 @@ model		freeze
 aifile	bots/freeze_c.c
 }
 
-{
-name		dyg
-funname		^F^1DYG^f^5dyg
-model		freeze
-aifile	bots/dyg_c.c
-}
-
 
 {
 name		dwcbot1
-funname		^0[^7BOT^0]^7He-M^0a^7n
+funname		^F^1DYG^f^5dyg
 model		freeze
 aifile	bots/dwcbot1_c.c
 }
@@ -298,4 +291,12 @@ name		dwcbot10
 funname		^3[^7BOT^3]^7E^3v^7ilWarlord
 model		freeze
 aifile	bots/dwcbot10_c.c
+}
+
+
+{
+name		dwcbot11
+funname		Test
+model		freeze
+aifile	bots/dwcbot11_c.c
 }
