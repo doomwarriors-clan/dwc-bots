@@ -216,7 +216,7 @@ aifile	bots/freeze_c.c
 
 {
 name		dyg
-funname		^F^2D^3I^1S^6C^5O^f^0d^4i^2s^6c^2o^7
+funname		[DYG]DerHaubentaucher
 model		freeze
 aifile	bots/dyg_c.c
 }
@@ -224,7 +224,7 @@ aifile	bots/dyg_c.c
 
 {
 name		dwcbot1
-funname		^0[^7BOT^0]^7He-M^0a^7n
+funname		^F^1P^0I^7L^4L^3E^f^3p^1a^9l^6l^8e^7
 model		freeze
 aifile	bots/dwcbot1_c.c
 }
@@ -232,7 +232,7 @@ aifile	bots/dwcbot1_c.c
 
 {
 name		dwcbot2
-funname		^0[^7BOT^0]^7Skelet^0o^7r
+funname		^F^2D^3I^1S^6C^5O^f^0d^4i^2s^6c^5o^7
 model		freeze
 aifile	bots/dwcbot2_c.c
 }
@@ -240,7 +240,7 @@ aifile	bots/dwcbot2_c.c
 
 {
 name		dwcbot3
-funname		^0[^7BOT^0]^7BeastM^0a^7n
+funname		^F^2B^6I^1M^0M^3E^7L^F^3b^4a^6m^8m^2e^4l:wrack
 model		freeze
 aifile	bots/dwcbot3_c.c
 }
