@@ -215,8 +215,16 @@ aifile	bots/freeze_c.c
 
 
 {
+name		dyg
+funname		^F^2D^3I^1S^6C^5O^f^0d^4i^2s^6c^2o^7
+model		freeze
+aifile	bots/dyg_c.c
+}
+
+
+{
 name		dwcbot1
-funname		^F^1DYG^f^5dyg
+funname		^0[^7BOT^0]^7He-M^0a^7n
 model		freeze
 aifile	bots/dwcbot1_c.c
 }
