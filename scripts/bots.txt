@@ -300,3 +300,9 @@ funname		Test
 model		freeze
 aifile	bots/dwcbot11_c.c
 }
+{
+name		dyg
+funname		DyingLight
+model	dyg
+aifile	bots/dyg_c.c
+}
