@@ -240,7 +240,7 @@ aifile	bots/dwcbot2_c.c
 
 {
 name		dwcbot3
-funname		^F^2B^6I^1M^7M^3E^7L^f^3b^4a^6m^8m^2e^4l
+funname		^F^2D^6A^1L^7L^3I^f^3d^4a^6l^8l^2i^7
 model		freeze
 aifile	bots/dwcbot3_c.c
 }
@@ -248,7 +248,7 @@ aifile	bots/dwcbot3_c.c
 
 {
 name		dwcbot4
-funname		^F^4K^3U^1D^2D^6E^7L^f^4m^1u^2d^3d^8e^9l
+funname		^F^4P^3A^1L^2I^6M^f^4p^1a^2l^3i^8m^7
 model		freeze
 aifile	bots/dwcbot4_c.c
 }
@@ -256,7 +256,7 @@ aifile	bots/dwcbot4_c.c
 
 {
 name		dwcbot5
-funname		^0[^7BOT^0]^7Tee^0l^7a
+funname		^F^5N^7U^2D^1E^3L^f^8^3p^6a^9s^2t^1a^7
 model		freeze
 aifile	bots/dwcbot5_c.c
 }
