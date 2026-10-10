@@ -8,7 +8,7 @@
 // Tab Size:		3 (real tabs) wtf?
 //===========================================================================
 
-chat "dwcbot3"
+chat "awvp"
 {
 	#include "teamplay.h"
 
