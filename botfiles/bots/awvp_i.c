@@ -1,6 +1,6 @@
 //===========================================================================
 //
-// Name:		freeze_i.c
+// Name:		    awvp_i.c
 // Function:		
 // Programmer:		Lucipher
 // Last update:		DEZ 23, 1999

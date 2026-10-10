@@ -1,6 +1,6 @@
 //===========================================================================
 //
-// Name:		freeze_w.c
+// Name:		    awvp_w.c
 // Function:		weapon weights
 // Programmer:		Lucipher
 // Last update:		DEZ 23, 1999

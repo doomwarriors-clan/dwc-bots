@@ -1,7 +1,7 @@
 //===========================================================================
 //
-// Name:		awvp_t.c
-// Function:      	chat lines for Eve
+// Name:			awvp_t.c
+// Function:      	chat lines for awvp
 // Programmer:		Lucipher
 // Last update:		DEZ 23, 1999
 //  
