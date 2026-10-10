@@ -293,16 +293,3 @@ model		freeze
 aifile	bots/dwcbot10_c.c
 }
 
-
-{
-name		dwcbot11
-funname		Test
-model		freeze
-aifile	bots/dwcbot11_c.c
-}
-{
-name		dyg
-funname		DyingLight
-model	dyg
-aifile	bots/dyg_c.c
-}
