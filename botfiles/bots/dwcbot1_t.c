@@ -1,9 +1,9 @@
 //===========================================================================
 //
-// Name:		awvp_t.c
-// Function:      	chat lines for Eve
-// Programmer:		Lucipher
-// Last update:		DEZ 23, 1999
+// Name:			dwcbot*_t.c
+// Function:      	chat lines for dwcbot*
+// Programmer:		dwc.motter
+// Last update:		2026-10-10 - with help of beer
 //  
 // Tab Size:		3 (real tabs) wtf?
 //===========================================================================
@@ -16,33 +16,66 @@ chat "dwcbot1"
 	//======================================================
 	type "game_enter" //initiated when the bot enters the game
 	{
-		"ist das nicht zu schnell?";
-
-		//"whats up with you, are you starrin`???.";
-		//"You have entered Hell, ", 1, ". Prepare to looose.";
-		// 0 = bot name
-		//1 = random player
-		//4 = level's title
+		"N00BS!";
+		"B00NS!";
+		"langweilig...";
+		"Putz dir erstmal die Nase du Lappen!";
+		"Wo kann ich jetzt die Waffen kaufen?";
+		"Wo ist denn das Weaponwheel?";
+		"Janiebisch!";
+		"Irgendein Karpfen anwesend?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"ZEFIX!";
+		"LINUX!";
+		"Also ", 1, "ist schonmal das Opfer!";
+		"Ich habe Haare im Gesicht, bin ich erwachsen?";
 	} //end type
 
 	type "game_exit" //initiated when the bot exits the game
 	{
-		"was passiert, wenn hier auf diesen POWER Knopf druecke???";
+		"N00BS!";
+		"B00NS!";
+		"langweilig...";
+		"Putz dir erstmal die Nase du Lappen!";
+		"Wo kann ich jetzt die Waffen kaufen?";
+		"Wo ist denn das Weaponwheel?";
+		"Janiebisch!";
+		"Irgendein Karpfen anwesend?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"ZEFIX!";
+		"LINUX!";
+		"Also ", 1, "ist schonmal das Opfer!";
+		"Ich habe Haare im Gesicht, bin ich erwachsen?";
 		// 0 = bot name
 		//4 = level's title
 	} //end type
 
 	type "level_start" //initiated when a new level starts
 	{
-		"jetzt aber...wo ist mein Joystick???";
-		
+		"DIE RAIL GEHöRT MIR IHR OPFER!!!";
+		"...NUR AM CAMPEN!";
+		"gna...";
+		"gehts jetzt schon los?";
+		"WER HAT SCHON WIEDER TEAMREADY GEMACHT?!?!";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Mahlzeit";
 		// 0 = bot name
 	} //end type
 
 	type "level_end" //initiated when a level ends and the bot is not first and not last in the rankings
 	{
-		"spielt hier jemand mit Maus?";
-
+		"ich bin dann mal kacken";
+		"alles n00bs hier...";
+		"HAT DAS SPIEL SCHON ANGEFANGEN????";
+		"ich bin dann mal kacken";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"... und Tschüss!";
+		"Ich spiel jetzt Quake2 - bast game ewa!";
+		"Mahlzeit";
 		// 0 = bot name
 		// 1 = random opponent
 		// 2 = opponent in first place
@@ -52,14 +85,29 @@ chat "dwcbot1"
 
 	type "level_end_victory" //initiated when a level ends and the bot is first in the rankings
 	{
-		"was ist passiert?";
-
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"einfach...";
+		"wann kommen die Gegner?";
+		"mach mal deinen Monitor an!";
+		"ich bin dann mal kacken";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"hat jemand einen Karpfen gesehen?";
+		"Ich wusste schon im Mutterleib, dass ich gewinne!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
 		// 0 = bot name
 	} //end type
 
 	type "level_end_lose" //initiated when a level ends and the bot is last in the rankings
 	{
-		"wo kann man denn nun Waffen kaufen???";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"ich bin dann mal kacken";
+		"schwule Shotgun!";
+		"nur Luck! und nur am Campen!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"schwule Shotgun!";
+		"ich bin dann mal kacken";
+		"Ihr seid Cheater, schämt euch";
 		// 0 = bot name
 	} //end type
 
@@ -68,21 +116,104 @@ chat "dwcbot1"
 
 	type "hit_talking" //bot is hit while chat balloon is visible; lecture attacker on poor sportsmanship
 	{
-		"HUCH! War keine Absicht!";
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		//0 = shooter
 	} //end type
 
 	type "hit_nodeath" //bot is hit by an opponent's weapon attack; either praise or insult
 	{
-		"Kacknabbel!";
-
+		"LINUX ", 0, " schwule Shotgun!";
+		"CHEAT! ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", wo isch doi Katz! Die Drecksvotzn!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
 		//0 = shooter
 	} //end type
 
 	type "hit_nokill" //bot hits an opponent but does not kill it
 	{
-		"jetzt warte doch mal kurz, ich kann nicht so schnell";
-
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		//0 = opponent
 	} //end type
 
@@ -91,72 +222,295 @@ chat "dwcbot1"
 
 	type "death_telefrag" //initiated when the bot is killed by a telefrag
 	{
-		"was?";
+		"LINUX ", 0, " schwule Shotgun!";
+		"CHEAT! ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
 		// 0 = enemy name
 	} //end type
 
 	type "death_cratered" //initiated when the bot is killed by taking "normal" falling damage
 	{
-		"wie jetzt...ich war doch in der Hocke!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"CHEAT! ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
 	} //end type
 
 	type "death_lava" //initiated when the bot dies in lava
 	{
-		"das sah so schoen bunt aus";
+		"LINUX ", 0, " schwule Shotgun!";
+		"CHEAT! ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
 	} //end type
 
 	type "death_slime" //initiated when the bot dies in slime
 	{
-		"ich dachte das waere ein smoothie...";
+		"LINUX ", 0, " schwule Shotgun!";
+		"CHEAT! ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
 	} //end type
 
 	type "death_drown" //initiated when the bot drowns
 	{
-		"ich habe das Seepferdchen!";
+		"WO SIND HIER DIE KARPFEN!!!";
+		"Hand me a towel, will you?";
 		// 0 = enemy name
 	} //end type
 
 	type "death_suicide" //initiated when bot blows self up with a weapon or craters
 	{
-		"was war das jetzt?";
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "death_gauntlet" //initiated when the bot is killed by a gauntlet attack
 	{
-		"das ging mir jetzt zu schnell";
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "death_rail" //initiated when the bot is killed by a rail gun shot
 	{
-		"...mit einem Laser!!!";
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "death_bfg" //initiated when the bot died by a BFG
 	{
-		"hm";
+		"that was nasty :-))";
 		DEATH_BFG2;
 			// 0 = enemy name
 	} //end type
 
 	type "death_insult" //insult initiated when the bot died
 	{
-		"bist du schnell";
-		"wenn ich meinen Joystick finde...";
-		"wenn ich meinen Monitor auf den Kopf drehe - klappts dann besser???";
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "death_praise" //praise initiated when the bot died
 	{
-		"bist du schnell";
-		"wenn ich meinen Joystick finde...";
-		"wenn ich meinen Monitor auf den Kopf drehe - klappts dann besser???";
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -164,48 +518,207 @@ chat "dwcbot1"
 	//======================================================
 	type "kill_rail" //initiated when the bot kills someone with rail gun
 	{
-		"was war das jetzt schon wieder?";
-		"Kacknabbel!";
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "kill_gauntlet" //initiated when the bot kills someone with gauntlet
 	{
-		"was war das jetzt schon wieder?";
-		"Kacknabbel!";
-
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "kill_telefrag" //initiated when the bot telefragged someone
 	{
-		"was war das jetzt schon wieder?";
-		"Kacknabbel!";
-
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
 	} //end type
 
 	type "kill_suicide" //initiated when the players kills self
 	{
-		"was war das jetzt schon wieder?";
-		"Kacknabbel!";
-
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
 	} //end type
 
 	type "kill_insult" //insult initiated when the bot killed someone
 	{
-		"was war das jetzt schon wieder?";
-		"Kacknabbel!";
-
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "kill_praise" //praise initiated when the bot killed someone
 	{
-		"was war das jetzt schon wieder?";
-		"Kacknabbel!";
-
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -214,19 +727,94 @@ chat "dwcbot1"
 
 	type "random_insult" //insult initiated randomly (just when the bot feels like it)
 	{
-			"Kacknabbel!";
-			"also in et kann man sich auch hinlegen...";
-
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = name of randomly chosen player
 		// 1 = last victim name
 	} //end type
 
 	type "random_misc" //miscellanous chats initiated randomly
 	{
-			"Kacknabbel!";
-			"also in et kann man sich auch hinlegen...";
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = name of randomly chosen player
 		// 1 = last victim name
 	} //end type
 
-} //end awvp chat	
+} //end chat	

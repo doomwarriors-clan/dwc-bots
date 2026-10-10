@@ -1,9 +1,9 @@
 //===========================================================================
 //
-// Name:		dyg_t.c
+// Name:			dyg_t.c
 // Function:      	chat lines for dyg
-// Programmer:		Lucipher
-// Last update:		DEZ 23, 1999
+// Programmer:		dwc.motter
+// Last update:		2026-10-10 - with help of beer
 //  
 // Tab Size:		3 (real tabs) wtf?
 //===========================================================================
@@ -17,30 +17,52 @@ chat "dyg"
 	type "game_enter" //initiated when the bot enters the game
 	{
 		"N00BS!";
+		"B00NS!";
 		"langweilig...";
 		"Putz dir erstmal die Nase du Lappen!";
 		"Wo kann ich jetzt die Waffen kaufen?";
+		"Wo ist denn das Weaponwheel?";
 		"Janiebisch!";
 		"Irgendein Karpfen anwesend?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
 		"ZEFIX!";
 		"LINUX!";
 		"Also ", 1, "ist schonmal das Opfer!";
+		"Ich habe Haare im Gesicht, bin ich erwachsen?";
 	} //end type
 
 	type "game_exit" //initiated when the bot exits the game
 	{
-		"ich bin dann mal kacken";
+		"N00BS!";
+		"B00NS!";
+		"langweilig...";
+		"Putz dir erstmal die Nase du Lappen!";
+		"Wo kann ich jetzt die Waffen kaufen?";
+		"Wo ist denn das Weaponwheel?";
+		"Janiebisch!";
+		"Irgendein Karpfen anwesend?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"ZEFIX!";
+		"LINUX!";
+		"Also ", 1, "ist schonmal das Opfer!";
+		"Ich habe Haare im Gesicht, bin ich erwachsen?";
 		// 0 = bot name
 		//4 = level's title
 	} //end type
 
 	type "level_start" //initiated when a new level starts
 	{
-		"DIE RAIL GEHOERT MIR IHR OPFER!!!";
+		"DIE RAIL GEHöRT MIR IHR OPFER!!!";
 		"...NUR AM CAMPEN!";
 		"gna...";
 		"gehts jetzt schon los?";
 		"WER HAT SCHON WIEDER TEAMREADY GEMACHT?!?!";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Mahlzeit";
 		// 0 = bot name
 	} //end type
 
@@ -51,6 +73,9 @@ chat "dyg"
 		"HAT DAS SPIEL SCHON ANGEFANGEN????";
 		"ich bin dann mal kacken";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"... und Tschüss!";
+		"Ich spiel jetzt Quake2 - bast game ewa!";
+		"Mahlzeit";
 		// 0 = bot name
 		// 1 = random opponent
 		// 2 = opponent in first place
@@ -67,7 +92,9 @@ chat "dyg"
 		"ich bin dann mal kacken";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		"hat jemand einen Karpfen gesehen?";
-
+		"Ich wusste schon im Mutterleib, dass ich gewinne!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
 		// 0 = bot name
 	} //end type
 
@@ -80,6 +107,7 @@ chat "dyg"
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		"schwule Shotgun!";
 		"ich bin dann mal kacken";
+		"Ihr seid Cheater, schämt euch";
 		// 0 = bot name
 	} //end type
 
@@ -88,8 +116,46 @@ chat "dyg"
 
 	type "hit_talking" //bot is hit while chat balloon is visible; lecture attacker on poor sportsmanship
 	{
-		"Now that was nice manners. Bet you fart in public too.";
-		"Keep that up and you'll be REAL popular here.";
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		//0 = shooter
 	} //end type
 
@@ -100,19 +166,54 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", wo isch doi Katz! Die Drecksvotzn!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
 		//0 = shooter
 	} //end type
 
 	type "hit_nokill" //bot hits an opponent but does not kill it
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
-		"CHEAT! ", 0;
+		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		//0 = opponent
 	} //end type
 
@@ -126,9 +227,12 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
 		// 0 = enemy name
 	} //end type
 
@@ -139,7 +243,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -152,7 +256,7 @@ chat "dyg"
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		// 0 = enemy name
@@ -180,40 +284,136 @@ chat "dyg"
 
 	type "death_suicide" //initiated when bot blows self up with a weapon or craters
 	{
-		"LINUX ", 0, " schwule Shotgun!";
-		"CHEAT! ", 0;
-		"wo isch doi Katz! Die Drecksvotzn!";
-		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
-		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
-		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
-		"ich koennte jetzt gut einen Karpfen vertragen";
-		// 0 = enemy name
-	} //end type
-
-	type "death_gauntlet" //initiated when the bot is killed by a gauntlet attack
-	{
-		"LINUX ", 0, " schwule Shotgun!";
-		"CHEAT! ", 0;
-		"wo isch doi Katz! Die Drecksvotzn!";
-		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
-		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
-		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
-		"ich koennte jetzt gut einen Karpfen vertragen";
-		// 0 = enemy name
-	} //end type
-
-	type "death_rail" //initiated when the bot is killed by a rail gun shot
-	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
+		// 0 = enemy name
+	} //end type
+
+	type "death_gauntlet" //initiated when the bot is killed by a gauntlet attack
+	{
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
+		// 0 = enemy name
+	} //end type
+
+	type "death_rail" //initiated when the bot is killed by a rail gun shot
+	{
+		"Nur so kannst du also Damage geben? B00n!";
+		"LINUX ", 0, " schwule Shotgun!";
+		"suck my carp ", 0;
+		"wo isch doi Katz! Die Drecksvotzn!";
+		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
+		0, ", deine Mudder hat mehr 3er als BMW";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
+		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -226,29 +426,91 @@ chat "dyg"
 
 	type "death_insult" //insult initiated when the bot died
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
-
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "death_praise" //praise initiated when the bot died
 	{
-		
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -256,27 +518,91 @@ chat "dyg"
 	//======================================================
 	type "kill_rail" //initiated when the bot kills someone with rail gun
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "kill_gauntlet" //initiated when the bot kills someone with gauntlet
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -308,27 +634,91 @@ chat "dyg"
 
 	type "kill_insult" //insult initiated when the bot killed someone
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "kill_praise" //praise initiated when the bot killed someone
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -337,32 +727,94 @@ chat "dyg"
 
 	type "random_insult" //insult initiated randomly (just when the bot feels like it)
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
-
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = name of randomly chosen player
 		// 1 = last victim name
 	} //end type
 
 	type "random_misc" //miscellanous chats initiated randomly
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
 		0, ", deine Mudder steht vor Kik und schreit: ICH BIN BILLIGER!";
 		0, ", deine Mudder hat mehr 3er als BMW";
-		0, ", Deine Mudda hei�t Dieter und ist der Haarigste im Zoo.";
+		0, ", Deine Mudda heißt Dieter und ist der Haarigste im Zoo.";
 		0, ", Deine Mama schreit von der Toilette: Schaut mal Kinder, ich bin ein 3D Drucker!";
 		"ich koennte jetzt gut einen Karpfen vertragen";
-
+		"Ihr seid einfach nur Opfer!";
+		"Kannst du auch was anderes?";
+		"ich spiel nachher QW, da braucht man skill";
+		"Ich geh REWE, da ist hochdeutsch!";
+		"ICh bin Mülleimer, also Vorsicht Junge!";
+		"Ey Junge!!!";
+		"Ich spiel auf Gameboy, deswegen hast du das geschafft. L O S E R !";
+		"ICh zieh dich vor Gericht, weil Gerechtigkeit";
+		"Kannst du auch was anderes? Irgendwas?";
+		"Ich geh erstmal in den Puff, das macht mehr Spaß";
+		"Saunagang?";
+		"Die 20 Bier hab ich zum hier trinken bestellt!";
+		"Und dann sagte der Lama: Trinkt weniger, wir wollen gewinnen.";
+		"Eine Forelle ist kein Karpfen!";
+		"bind +attack say peng peng";
+		"Ein Glück muss ich dich nicht im Spiegel sehen";
+		"Wenn ich Du wäre, wäre ich lieber ich";
+		"Schonmal über Selbstmord nachgedacht? Nicht? Mach mal!";
+		"Bin mal kurz im Baumarkt";
+		"Zieh doch einfach nach Afrika, danke!";
+		"Ich zieh dich vor den europäischen Gerichtshof";
+		"Mein Vater hatte dieser Uhr in seinem Arsch ...";
+		"gib doch mal /quit ein! Hilft dir!";
+		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
+		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = name of randomly chosen player
 		// 1 = last victim name
 	} //end type
 
-} //end dyg chat	
+} //end chat	

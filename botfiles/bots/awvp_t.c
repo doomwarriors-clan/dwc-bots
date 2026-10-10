@@ -54,7 +54,7 @@ chat "awvp"
 
 	type "level_start" //initiated when a new level starts
 	{
-		"DIE RAIL GEH�RT MIR IHR OPFER!!!";
+		"DIE RAIL GEHöRT MIR IHR OPFER!!!";
 		"...NUR AM CAMPEN!";
 		"gna...";
 		"gehts jetzt schon los?";
@@ -62,6 +62,7 @@ chat "awvp"
 		"Ich zeige dir jetzt meine Karpfensammlung";
 		"Eine Forelle ist kein Karpfen!";
 		"Ich komme Günzburg, besta Ort!";
+		"Mahlzeit";
 		// 0 = bot name
 	} //end type
 
@@ -73,6 +74,8 @@ chat "awvp"
 		"ich bin dann mal kacken";
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		"... und Tschüss!";
+		"Ich spiel jetzt Quake2 - bast game ewa!";
+		"Mahlzeit";
 		// 0 = bot name
 		// 1 = random opponent
 		// 2 = opponent in first place
@@ -90,7 +93,8 @@ chat "awvp"
 		"ich koennte jetzt gut einen Karpfen vertragen";
 		"hat jemand einen Karpfen gesehen?";
 		"Ich wusste schon im Mutterleib, dass ich gewinne!";
-
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
 		// 0 = bot name
 	} //end type
 
@@ -149,6 +153,9 @@ chat "awvp"
 		"Ich zeige dir jetzt meine Karpfensammlung";
 		"Eine Forelle ist kein Karpfen!";
 		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		//0 = shooter
 	} //end type
 
@@ -167,6 +174,7 @@ chat "awvp"
 
 	type "hit_nokill" //bot hits an opponent but does not kill it
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -200,6 +208,12 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		//0 = opponent
 	} //end type
 
@@ -270,6 +284,7 @@ chat "awvp"
 
 	type "death_suicide" //initiated when bot blows self up with a weapon or craters
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -303,11 +318,18 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "death_gauntlet" //initiated when the bot is killed by a gauntlet attack
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -341,11 +363,18 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "death_rail" //initiated when the bot is killed by a rail gun shot
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -379,6 +408,12 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -391,6 +426,7 @@ chat "awvp"
 
 	type "death_insult" //insult initiated when the bot died
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -424,13 +460,18 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
-
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "death_praise" //praise initiated when the bot died
 	{
-		
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -464,6 +505,12 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -471,6 +518,7 @@ chat "awvp"
 	//======================================================
 	type "kill_rail" //initiated when the bot kills someone with rail gun
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -504,11 +552,18 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "kill_gauntlet" //initiated when the bot kills someone with gauntlet
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -542,6 +597,12 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -573,6 +634,7 @@ chat "awvp"
 
 	type "kill_insult" //insult initiated when the bot killed someone
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -606,11 +668,18 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
 	type "kill_praise" //praise initiated when the bot killed someone
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -644,6 +713,12 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = enemy name
 	} //end type
 
@@ -652,6 +727,7 @@ chat "awvp"
 
 	type "random_insult" //insult initiated randomly (just when the bot feels like it)
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -685,13 +761,19 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
-
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = name of randomly chosen player
 		// 1 = last victim name
 	} //end type
 
 	type "random_misc" //miscellanous chats initiated randomly
 	{
+		"Nur so kannst du also Damage geben? B00n!";
 		"LINUX ", 0, " schwule Shotgun!";
 		"suck my carp ", 0;
 		"wo isch doi Katz! Die Drecksvotzn!";
@@ -725,9 +807,14 @@ chat "awvp"
 		"gib doch mal /quit ein! Hilft dir!";
 		"Wollen wir ne Affäre anfangen? Ich bin hinten^^";
 		"Kommt ein Blinder auf den Fischmarkt ... kennste, ne?";
-
+		"Ich zeige dir jetzt meine Karpfensammlung";
+		"Eine Forelle ist kein Karpfen!";
+		"Ich komme Günzburg, besta Ort!";
+		"Das liegt an meinem Longevity Programm!";
+		"Ich nehme nur Omega3 Karpfenöl!";
+		"Koi Koi Koi";
 		// 0 = name of randomly chosen player
 		// 1 = last victim name
 	} //end type
 
-} //end freeze chat	
+} //end chat	
