@@ -216,7 +216,7 @@ aifile	bots/freeze_c.c
 
 {
 name		dyg
-funname		[DYG]DerHaubentaucher
+funname		[DYG]DieDrossel
 model		freeze
 aifile	bots/dyg_c.c
 }
