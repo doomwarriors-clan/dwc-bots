@@ -301,3 +301,10 @@ model		freeze
 aifile	bots/dwcbot10_c.c
 }
 
+
+{
+name		dwcbot11
+funname		eS.TRa.GoN
+model		freeze
+aifile	bots/dwcbot11_c.c
+}
