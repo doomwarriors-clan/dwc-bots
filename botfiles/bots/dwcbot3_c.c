@@ -32,7 +32,7 @@ skill 5
     CHARACTERISTIC_VIEW_MAXCHANGE 250
     CHARACTERISTIC_REACTIONTIME  0.05
     
-    CHARACTERISTIC_CHAT_FILE                    "bots/dwcbot3_t.c"
+    CHARACTERISTIC_CHAT_FILE                    "bots/dwcbot_t.c"
     CHARACTERISTIC_CHAT_NAME                    "dwcbot3"
  	CHARACTERISTIC_CHAT_CPM						400
 	CHARACTERISTIC_CHAT_INSULT					0.2
