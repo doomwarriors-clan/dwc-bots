@@ -224,7 +224,7 @@ aifile	bots/dyg_c.c
 
 {
 name		dwcbot1
-funname		^F^1P^2I^7L^4L^3E^f^3p^1a^9l^6l^8e^7
+funname		^F^2P^3P^1L^6L^5E^f^8p^4a^2l^6l^5e^7
 model		freeze
 aifile	bots/dwcbot1_c.c
 }
