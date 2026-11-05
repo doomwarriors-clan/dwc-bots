@@ -1,12 +1,16 @@
 # dwc-bots
 
-Custom **Quake III Arena** bot pack for the **DoomWarriors** clan
+Custom **Quake III Arena** bot pack for the **Doomwarriors** clan
 ([doomwarriors.de](https://doomwarriors.de)).
 
 14 hand-tuned bots (`dwcbot1`–`dwcbot11`, `awvp`, `dyg`, `freeze`) for the
 clan's TDM / CTF / DM servers. The pack is pure botfiles on top of the stock
 Q3A bot system — no engine or game-module modifications, so it is drop-in for
 any Q3A-compatible engine (Q3e, Unlagged, OSP, …).
+
+dwcbot1-5: highly tuned
+dwcbot6-11: noobs
+dyg, awvp, freeze: honorary members of our clan. In their remembrance.
 
 ## Bots
 
@@ -51,12 +55,9 @@ dwc-bots/
 └── create.sh            build script (see below)
 ```
 
-The built `zzz_dwc_bots.pk3` (botfiles/ + models/ + scripts/ in a zip) is
-created by `create.sh` and gitignored.
-
 ## Building
 
-pk3 files are zip files - ensure that you zip with v2 compatibility. More recent versions (such as v3) cannot be read/unpacked by Quake3 engine (possible TODO: enable Quake3e to unzip v3 zip files ...)
+pk3 files are zip files - ensure that you zip with v2 compatibility. More recent versions (such as v3) cannot be read/unpacked by Quake3 engine (possible TODO: enable Quake3e to unzip v3 zip files too ...)
 
 ```sh
 zip -r -X zzz_dwc_bots.pk3 botfiles/ models/ scripts/
