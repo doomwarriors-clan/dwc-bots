@@ -32,7 +32,7 @@ All 14 use the `freeze` model (see `scripts/bots.txt`).
 ## File layout
 
 ```
-q3bots/
+dwc-bots/
 ├── botfiles/
 │   ├── bots/
 │   │   ├── <bot>_c.c    characteristics: skill block with attack/aim skill,
@@ -87,5 +87,5 @@ cp zzz_dwc_bots.pk3 ~/q3e/baseq3/
 - Character, item/weapon weight and chat files: tuned by dwc.motter
   (DoomWarriors).
 
-This repository is the leading source for the pack; a mirror of the same
-content lives in the private homelab repo under `q3bots/`.
+This repository is the leading source for the pack; a copy of it (git
+submodule) lives in the private homelab repo under `dwc-bots/`.
