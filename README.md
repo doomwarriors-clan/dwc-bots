@@ -12,10 +12,10 @@ any Q3A-compatible engine (Q3e, Unlagged, OSP, …).
 
 | Bot | In-game name | Primary weapon | Role |
 |---|---|---|---|
-| `dwcbot1` | PALLE | Railgun | Aggressive TDM duelist, CTF flag carrier |
-| `dwcbot2` | DISCO | Rocket Launcher | — |
-| `dwcbot3` | DALLI | Railgun | Mirrors dwcbot1 (full stat match) |
-| `dwcbot4` | PALIM | Railgun | Mirrors dwcbot1 (full stat match) |
+| `dwcbot1` | PILLEpalle | Railgun | Aggressive TDM duelist, CTF flag carrier |
+| `dwcbot2` | DISCOdisco | Rocket Launcher | — |
+| `dwcbot3` | DALLIdalli | Railgun | Mirrors dwcbot1 (full stat match) |
+| `dwcbot4` | PALIMpalim | Railgun | Mirrors dwcbot1 (full stat match) |
 | `dwcbot5` | NUDELPasta | Lightning | Sustained TDM duelist, CTF defense |
 | `dwcbot6` | [BOT]ManAtArms | Machine Gun | Aggressive TDM, shot-and-move |
 | `dwcbot7` | [BOT]TrapDou | Plasma Gun | — |
@@ -56,28 +56,16 @@ created by `create.sh` and gitignored.
 
 ## Building
 
-`create.sh` builds the pk3 and installs it (run from the working dir
-`~/Documents/q3bots`; it copies this repo's contents in first):
+pk3 files are zip files - ensure that you zip with v2 compatibility. More recent versions (such as v3) cannot be read/unpacked by Quake3 engine (possible TODO: enable Quake3e to unzip v3 zip files ...)
 
 ```sh
-cp -a ../dev/homelab/q3bots/* .
 zip -r -X zzz_dwc_bots.pk3 botfiles/ models/ scripts/
 cp zzz_dwc_bots.pk3 ~/q3e/baseq3/
 ```
-
-The pk3 is a build artifact (gitignored, not committed) — build it with
-`create.sh`, or simply `zip -r -X zzz_dwc_bots.pk3 botfiles/ models/
-scripts/` from this directory.
-
 ## Using
 
-- Put `zzz_dwc_bots.pk3` into your `baseq3/` directory (or the mod's game dir
-  if the server runs a mod such as OSP).
-- Add bots from the server console, e.g. `addbot dwcbot1 5` (name, skill), or
-  pick them by their in-game names (PALLE, DISCO, …) from the bot list.
-- `scripts/bots.txt` registers the 14 DWC bots alongside the 32 stock Q3A
-  bots (Xaero, Orbb, …), so the engine's standard `bots.txt` handling works
-  unchanged.
+- Put `zzz_dwc_bots.pk3` into your `baseq3/` directory 
+- Add bots from the server console, e.g. `addbot dwcbot1 5 red` (name, skill, team). Most bost only have skill 5
 
 ## Notes
 
