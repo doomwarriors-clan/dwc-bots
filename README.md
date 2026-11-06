@@ -9,7 +9,9 @@ Q3A bot system — no engine or game-module modifications, so it is drop-in for
 any Q3A-compatible engine (Q3e, Unlagged, OSP, …).
 
 dwcbot1-5: highly tuned
+
 dwcbot6-11: noobs
+
 dyg, awvp, freeze: honorary members of our clan. In their remembrance.
 
 ## Bots
@@ -31,7 +33,7 @@ dyg, awvp, freeze: honorary members of our clan. In their remembrance.
 | `dyg` | [DYG]DieDrossel | — | Based on Slash, mid strength (between dwcbot1 and dwcbot2) |
 | `freeze` | FREEZE | — | Base bot of the pack |
 
-All 14 use the `freeze` model (see `scripts/bots.txt`).
+All 14 use the `freeze` model (see `scripts/bots.txt`), but who cares, you likely play with keel/pm or tankjr/pm as enemymodel anyway.
 
 ## File layout
 
@@ -66,7 +68,7 @@ cp zzz_dwc_bots.pk3 ~/q3e/baseq3/
 ## Using
 
 - Put `zzz_dwc_bots.pk3` into your `baseq3/` directory 
-- Add bots from the server console, e.g. `addbot dwcbot1 5 red` (name, skill, team). Most bost only have skill 5
+- Add bots from the server console, e.g. `addbot dwcbot1 5 red` (name, skill, team). Most bots only have skill 5
 
 ## Notes
 
