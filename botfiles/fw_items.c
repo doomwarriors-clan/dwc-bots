@@ -16,7 +16,7 @@
 #define BR_HEALTH				30
 #define BR_WEAPON				30
 #define BR_AMMO					30
-#define BR_POWERUP				30
+#define BR_POWERUP				10
 
 //balance macros
 #define MZ(value)				(value) < 0 ? 0 : (value)
@@ -563,27 +563,47 @@ weight "holdable_medkit"
 
 weight "item_quad"
 {
-	return POWERUP_SCALE(W_QUAD);
+	switch(INVENTORY_QUAD)
+	{
+		case 1: return 0; //already holding the quad
+		default: return POWERUP_SCALE(W_QUAD);
+	} //end switch
 } //end weight
 
 weight "item_enviro"
 {
-	return POWERUP_SCALE(W_ENVIRO);
+	switch(INVENTORY_ENVIRONMENTSUIT)
+	{
+		case 1: return 0; //already holding the environment suit
+		default: return POWERUP_SCALE(W_ENVIRO);
+	} //end switch
 } //end weight
 
 weight "item_haste"
 {
-	return POWERUP_SCALE(W_HASTE);
+	switch(INVENTORY_HASTE)
+	{
+		case 1: return 0; //already holding the haste
+		default: return POWERUP_SCALE(W_HASTE);
+	} //end switch
 } //end weight
 
 weight "item_invisibility"
 {
-	return POWERUP_SCALE(W_INVISIBILITY);
+	switch(INVENTORY_INVISIBILITY)
+	{
+		case 1: return 0; //already holding the invisibility
+		default: return POWERUP_SCALE(W_INVISIBILITY);
+	} //end switch
 } //end weight
 
 weight "item_regen"
 {
-	return POWERUP_SCALE(W_REGEN);
+	switch(INVENTORY_REGEN)
+	{
+		case 1: return 0; //already holding the regen
+		default: return POWERUP_SCALE(W_REGEN);
+	} //end switch
 } //end weight
 
 weight "item_flight"
