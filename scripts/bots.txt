@@ -304,7 +304,7 @@ aifile	bots/dwcbot10_c.c
 
 {
 name		dwcbot11
-funname		eS.TRa.GoN
+funname		^1dwc^3.^1Duel-AI-B^30^1t
 model		freeze
 aifile	bots/dwcbot11_c.c
 }
