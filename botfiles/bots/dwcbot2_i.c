@@ -2,8 +2,8 @@
 
 #include "inv.h"
 
-#define FS_HEALTH  2
-#define FS_ARMOR   3
+#define FS_HEALTH  5
+#define FS_ARMOR   5
 #define W_SHOTGUN           115
 #define W_MACHINEGUN        55
 #define W_GRENADELAUNCHER   115

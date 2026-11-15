@@ -11,8 +11,8 @@
 #include "inv.h"
 
 //initial health/armor states
-#define FS_HEALTH				2
-#define FS_ARMOR				3
+#define FS_HEALTH				5
+#define FS_ARMOR				5
 
 //initial weapon weights
 #define W_SHOTGUN				300
