@@ -10,9 +10,11 @@ any Q3A-compatible engine (Q3e, Unlagged, OSP, …).
 
 dwcbot1-5: highly tuned
 
-dwcbot6-11: noobs
+dwcbot6-10: noobs
 
-dyg, awvp, freeze: honorary members of our clan. In their remembrance.
+dwcbot11: AI reinforced for duel (permanently available on doomwarriors.de:27960)
+
+dyg, awvp, freeze: honorary members of our clan. In their remembrance. Funny tuned.
 
 ## Bots
 
