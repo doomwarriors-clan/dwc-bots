@@ -30,7 +30,7 @@ dyg, awvp, freeze: honorary members of our clan. In their remembrance. Funny tun
 | `dwcbot8` | [BOT]EvilKwan | BFG 10K | Mid-range CTF defender, area control |
 | `dwcbot9` | [BOT]RamMan | Shotgun (weapon jumping) | Aggressive TDM, CTF mid-fighter, mobile |
 | `dwcbot10` | [BOT]EvilWarlord | Railgun + Lightning | CTF defender, precise, holds positions |
-| `dwcbot11` | eS.TRa.GoN | — | freeze-based |
+| `dwcbot11` | dwc.Duel-AI-Bot | — | duel tuned dwcbot1 |
 | `awvp` | KACKspaten | — | Tuned to match freeze |
 | `dyg` | [DYG]DieDrossel | — | Based on Slash, mid strength (between dwcbot1 and dwcbot2) |
 | `freeze` | FREEZE | — | Base bot of the pack |
